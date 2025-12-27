@@ -3,7 +3,7 @@ name: Train Scraper
 on:
   schedule:
     # every 15 minutes
-    - cron:  "*/1 * * * *"
+    - cron:  "*/15 * * * *"
   workflow_dispatch:  # allows manual run from GitHub UI
 
 jobs:
